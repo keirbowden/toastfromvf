@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:attribute name="message" type="String" />
+    
+    <lightning:input type="text" label="Message" value="{!v.message}" />
+	<lightning:button name="show toast" label="toast" onclick="{!c.showToast}">Click to send toast</lightning:button>
+</aura:component>
